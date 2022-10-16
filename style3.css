@@ -1,0 +1,138 @@
+body{
+	background-color:beige;
+	margin: 5px;
+	text-align: center;
+
+}
+body{
+padding: 2px;
+	/*background-image: url('photos/bckweb.JPG');*/
+	background-color: beige;
+	color: gray;
+	font-size: 100%;
+	font-family: arial,'lucida sans unicode';
+	line-height;2px;	text-align: left;
+
+}
+a{text-decoration: none;}
+a:link, a:visited {color: white;}
+a:hover, a:active {color: skyblue;
+}
+.body{
+	margin: 0 auto;
+	width: 100%;
+	clear: both;
+}
+.menu{
+	width: 100%;
+	background-color:grey;
+	color:skyblue;
+	height: 60px;
+	box-shadow: -1px 5px 1px grey;
+	
+
+}
+.menu > ul {
+	margin: 0;
+	padding: 0;
+	float: left;
+	list-style-type: none;
+}
+.menu > ul > li {
+	float: left;
+}
+.menu-item {
+	display: inline-block;
+	padding: 15px 20px;
+	height: 30px;
+	line-height: 30px;
+	text-decoration: none;
+	color: skyblue;
+
+
+}
+.menu-item:hover{
+	background-color: transparent;
+}
+.sub-content {
+	position: absolute;
+	top: 60px;
+	overflow: hidden;
+	background-color: #333;
+	max-height: 0;
+}
+.sub-content a{
+	color: #fff;
+	text-decoration: none;
+
+}
+.sub-drop {
+	padding: 0;
+}
+.sub-drop ul {
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+.sub-drop ul li a {
+	display: inline-block;
+	padding: 10px 20px;
+}
+.sub-drop ul li:hover {
+	background-color:skyblue;
+}
+.menu-item:focus{
+	background-color: gray;
+}
+.menu-item:focus ~.sub-content{
+	max-height: 400px;
+	transition: max-height 1s ease-in;
+	-webkit-transition: max-height 1s ease-in;
+	-moz-transition: max-height 1s ease-in;
+}
+
+.menu ul li:hover .sub-content{
+	max-height: 400px;
+	transition: max-height 1s ease-in;
+	-webkit-transition: max-height 1s ease-in;
+	-moz-transition: max-height 1s ease-in;
+}
+#rmenu {
+	float: left;
+}
+.footer{
+	margin-top: 100px;
+	background-color: grey;
+	height: 75px;
+	border-radius: 5px;
+	--webkitborder-radius: 5px;
+	--mozborder-radius: 5px;
+}
+.footer nav ul {
+	text-align: center;
+	list-style: none;
+	margin: 0 auto;
+}
+.footer nav ul li {
+	display: inline;
+}
+
+.footer a:link, .mainheader a:visited{
+	color: white;
+	padding: 10px 40px;
+	display: inline-block;
+	height: 50px;
+}
+.footer a:hover, .mainheader a:active{
+	color: white;
+	background-color:skyblue;
+	text-shadow: none;
+
+}
+.text{
+	font-size: 20px;
+	font-family: solid;
+	
+
+}

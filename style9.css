@@ -1,0 +1,26 @@
+.gallery{
+	padding: 0;
+	margin: 0;
+}
+.pic{
+	float: left;
+	display: block;
+	width: 22%;
+	overflow: hidden;
+	padding: 22px;
+}
+h1{
+	text-align: center;
+	text-shadow: 4px 4px 6px;
+	font-style: italic;
+}
+img{
+	width: 100%;
+	border-radius: 6PX;
+	filter: brightness(.3);
+}
+img:hover{
+	transform: scale(1.5);
+	filter: brightness(.9);
+	transition: 2s transform;
+}
